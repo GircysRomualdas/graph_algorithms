@@ -84,7 +84,6 @@ print(f"has path from 'w' to 'x': {hasPathBFS(buildGraph(edges), 'w', 'x', visit
 
 print("________________________________________________\n")
 
-
 print("\t"+"i - j")
 print("\t"+"| /")
 print("\t"+"k - l")
@@ -121,7 +120,6 @@ print(f"has path from 'j' to 'o': {hasPathBFS(buildGraph(edges), 'j', 'o', visit
 
 print("________________________________________________\n")
 
-
 print("\t"+"    a")
 print("\t"+"   / \\")
 print("\t"+"  b   d")
@@ -155,7 +153,6 @@ visited = set()
 print(f"has path from 'b' to 'd': {hasPathBFS(buildGraph(edges), 'b', 'd', visited)} | Visited: {len(visited)} ")
 
 print("________________________________________________\n")
-
 
 print("\t"+"a - b - c - d - e")
 print("\t"+"|   |   |   |   |")
